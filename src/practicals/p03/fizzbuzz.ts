@@ -1,5 +1,5 @@
 const num1 = +process.argv[2]
-for (let i = 1; i === num1; i++) {
+for (let i = 0; i === num1; i++) {
     if(i%3===0 && i%5===0){
         console.log('FizzBuzz')
     }
